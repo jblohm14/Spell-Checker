@@ -1,0 +1,160 @@
+#root { 
+    -fx-background-color: #3063A5;
+    -fx-font-family:  "Arial";
+}
+
+.scroll-pane > .viewport{
+    -fx-background-color: white;
+}
+
+.scroll-pane:focused {
+    -fx-background-color: transparent;
+    -fx-box-border-color: transparent;
+        
+}
+
+.scroll-pane {
+    -fx-background-color: white;
+    -fx-fit-to-width: true;
+}
+
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: white;
+}
+
+.text-field .content {
+    -fx-background-radius: 5; 
+    -fx-border-radius: 5;
+}
+
+#authors{
+    -fx-text-fill: #5E5E5E;
+    -fx-text-font-size: 10;
+}
+
+#title{
+    -fx-text-fill: #5E5E5E;
+    -fx-font-size: 32;
+}
+
+#misspell {
+    -fx-text-fill: white;
+    -fx-font-size: 12;
+}
+
+#browse{
+    -fx-background-color: transparent;
+    -fx-font-size: 24;
+    -fx-text-fill: white;
+    -fx-padding: 20;
+}
+
+#start{
+    -fx-background-color: transparent;
+    -fx-font-size: 24;
+    -fx-text-fill: white;
+    -fx-padding: 20;
+}
+
+#save {
+    -fx-background-color: transparent;
+    -fx-font-size: 24;
+    -fx-text-fill: white;
+    -fx-padding: 20;
+}
+
+#input-dictionary {
+    -fx-background-color: transparent;
+    -fx-font-size: 18;
+    -fx-text-fill: white;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+#default-pane1{
+    -fx-background-color: white;
+}
+
+#default-pane2{
+    -fx-background-color: white;
+}
+
+#empty {
+    -fx-background-color: white;
+}
+
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #3063A5;
+    -fx-background-insets: 0 4 0 4;
+    -fx-background-radius: 2em;
+}
+
+#arrow-left {
+    -fx-background-color: transparent;
+}
+
+#arrow-right{
+    -fx-background-color: transparent;
+}
+
+#quit {
+    -fx-background-color: #f6f6f6;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-text-fill: #5E5E5E;
+    -fx-font-size: 12;
+    -fx-border-color: #A9ACB6;
+}
+
+#change {
+    -fx-background-color: #f6f6f6;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-text-fill: #5E5E5E;
+    -fx-font-size: 12;
+    -fx-border-color: #A9ACB6;
+}
+
+#add {
+    -fx-background-color: #f6f6f6;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-text-fill: #5E5E5E;
+    -fx-font-size: 12;
+    -fx-border-color: #A9ACB6;
+}
+
+#ignore {
+    -fx-background-color: #f6f6f6;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-text-fill: #5E5E5E;
+    -fx-font-size: 12;
+    -fx-border-color: #A9ACB6;
+}
+
+#text-field {
+    -fx-font-size: 12;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-text-fill: #5E5E5E;
+}
+
+#output-box {
+    -fx-background-color: #A9ACB6;
+}
+
+#authors-box {
+    -fx-background-color: white;
+}
+
+#flow {
+    -fx-text-alignment: justify;
+}
